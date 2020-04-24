@@ -126,3 +126,20 @@ CC BY 4.0 licence - https://creativecommons.org/licenses/by/4.0/
 * DCSync function in `lsadump` module was co-writed with Vincent LE TOUX, you contact him by mail ( vincent.letoux [at] gmail.com ) or visit his website ( http://www.mysmartlogon.com )
 
 This is a **personal** development, please respect its philosophy and don't use it for bad things!
+
+
+
+
+
+=============================Tambahan From ME====================================
+
+Offensive Tool Awareness: #Mimikatz
+Is it about creating complicated passwords? or more?
+
+Mimikatz is a Windows x32/x64 program coded in C by Benjamin Delpy (@gentilkiwi) in 2007 to learn more about Windows credentials (and as a Proof of Concept). There are two optional components that provide additional features, mimidrv (driver to interact with the Windows kernel) and mimilib (AppLocker bypass, Auth package/SSP, password filter, and sekurlsa for WinDBG).
+Summary:
+After a user logs on, a variety of credentials are generated and stored in the Local Security Authority Subsystem Service, LSASS, process in memory. This is meant to facilitate single sign-on (SSO) ensuring a user isn’t prompted each time resource access is requested. The credential data may include Kerberos tickets, NTLM password hashes, LM password hashes (if the password is <15 characters, depending on Windows OS version and patch level), and even clear-text passwords. While you can prevent a Windows computer from creating the LM hash in the local computer SAM database (and the AD database), this doesn’t prevent the system from generating the LM hash in memory.
+
+
+
+![55929359_2303514909934297_3378622872208539648_n](https://user-images.githubusercontent.com/56859974/80180957-18beda80-862e-11ea-91dd-159fd5a42ffd.jpg)
